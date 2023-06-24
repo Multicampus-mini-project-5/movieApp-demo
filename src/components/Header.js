@@ -31,7 +31,7 @@ function Header() {
             </li>
             <li>
               <Link className="header-nav-item" to="/login">
-                login
+                login및회원가입
               </Link>
             </li>
           </ul>
