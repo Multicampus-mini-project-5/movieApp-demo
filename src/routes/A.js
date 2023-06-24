@@ -1,7 +1,7 @@
-function Movie () {
+function A () {
   return (
-    <div className="page-container">Movie</div>
+    <div className="page-container">영화</div>
   );
 }
 
-export default Movie;
+export default A;
