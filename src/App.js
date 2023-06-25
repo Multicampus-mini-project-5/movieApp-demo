@@ -1,11 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./routes/Home";
-import A from "./routes/A";
-import Tv from "./routes/Tv";
-import Celebrity from "./routes/Celebrity";
-import NotFound from "./routes/NotFound";
 import Header from "./components/Header";
+import Home from "./routes/Home";
+import Tv from "./routes/Tv";
+import NotFound from "./routes/NotFound";
 import Login from "./routes/Login";
+import Movie from "./routes/Movie";
+import MovieDetail from "./routes/MovieDetail";
 
 
 function App() {
@@ -15,9 +15,9 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home/>}/>
-          <Route path="/movie" element={<A/>}/>
+          <Route path="/movie" element={<Movie/>}/>
+          <Route path="/movie/:title" element={<MovieDetail/>}/>
           <Route path="/tv" element={<Tv/>}/>
-          <Route path="/person" element={<Celebrity/>}/>
           <Route path="/login" element={<Login/>}/>
           <Route path="/*" element={<NotFound/>}/>
         </Routes>

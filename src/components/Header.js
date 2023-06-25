@@ -10,7 +10,7 @@ function Header() {
             <img
               src={multicampus}
               style={{width:"150px", height: "50px"}}
-              alt="멀티캠퍼스로고"
+              alt="멀티플릭스로고"
             />
           </Link>
           <ul>
@@ -22,11 +22,6 @@ function Header() {
             <li>
               <Link className="header-nav-item" to="/tv">
                 TV프로그램
-              </Link>
-            </li>
-            <li>
-              <Link className="header-nav-item" to="/person">
-                인물
               </Link>
             </li>
             <li>

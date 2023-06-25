@@ -1,0 +1,143 @@
+/* reset.css 적용  */
+@import 'reset.css';
+
+body {
+  background-color: gray;
+}
+
+.root-wrap {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/*header.js 스타일 */
+.header-container {
+  background-color: rgb(0, 0, 0);
+}
+
+.header-wrap {
+  height: 64px;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.header-left-wrap{
+  display: flex;
+}
+
+.header-left-wrap ul {
+  display: flex;
+  margin-left: 16px;
+  align-items: center;
+}
+
+.header-left-wrap li {
+  margin-right: 14px;
+  padding: 8px;
+}
+
+.header-nav-item {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.page-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 32px 0;
+}
+
+.movie-container {
+  width: 250px;
+
+  border: 1px solid white;
+}
+
+.movie-container img {
+  max-width: 100%;
+  margin: 10px;
+  background-color: azure;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px black;
+}
+
+.movie-info {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.genre {
+  padding: 5px;
+  color: white;
+}
+
+.rating {
+  color: blue;
+}
+
+.app-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.summary {
+  display: flex;
+  color: white;
+  padding: 10px
+}
+
+/*movieDetail 스타일 */
+
+.movie img {
+position: relative;
+top: -50px;
+max-width: 150px;
+width: 100%;
+margin-right: 30px;
+box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+  0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+}
+
+.movie__title,
+.movie__year {
+margin: 0;
+font-weight: 300;
+}
+
+.movie__title {
+margin-bottom: 5px;
+font-size: 24px;
+color: #2c2c2c;
+}
+
+.movie__genres {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+margin: 5px 0px;
+}
+
+.movie__genres li,
+.movie__year {
+margin-right: 10px;
+font-size: 14px;
+}
+
+.genres__genre{
+  color:red;
+}
+
+.login-form {
+  align-items: center;
+
+}
